@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+  <title>Мамочке от Насти</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> <!-- Подключаем шрифт Roboto -->
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif; 
+      background: #fdf1f6;
+      color: #444;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      background-image: url('left.jpg'), url('right.jpg');
+      background-repeat: no-repeat;
+      background-size: 20% 100%; 
+      background-position: left center, right center; 
+      min-height: 100vh; 
+    }
+
+    header {
+      text-align: center;
+      font-size: 2.5em;
+      padding: 20px;
+      background-color: #ffaadf;
+      color: white;
+      font-weight: bold; 
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      background-color: #ffb6c1;
+      margin: 0;
+    }
+
+    nav li {
+      padding: 15px 30px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    nav li:hover {
+      background-color: #ff4da6;
+      color: white;
+    }
+
+    aside {
+      background-color: rgba(255, 255, 255, 0.8); 
+      padding: 30px;
+      text-align: center;
+      font-size: 2em; 
+      font-style: italic;
+      color: #ff4da6;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      width: 55%; 
+      margin: 0 auto; 
+    }
+
+    section {
+      padding: 30px;
+      margin: 25px auto;
+      background-color: #fff;
+      border-radius: 12px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+      max-width: 900px;
+    }
+
+    h1, h2 {
+      color: #ff4da6;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.05);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    }
+
+    footer {
+      background-color: #ffb6c1;
+      padding: 15px;
+      text-align: center;
+      font-size: 1.1em;
+      margin-top: 40px;
+    }
+
+    footer p {
+      color: #fff;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        background-size: 50% 100%; 
+      }
+
+      section {
+        margin: 10px;
+        padding: 15px;
+      }
+
+      aside {
+        width: 90%; 
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>Моей любимой мамуле</header>
+  <nav>
+    <ul>
+      <li><a href="#section1">Главная</a></li>
+      <li><a href="#section2">О маме</a></li>
+      <li><a href="#section3">Люблю тебя 💖</a></li>
+    </ul>
+  </nav>
+  <aside>
+    <p>“Мама — это сердце семьи 💗”</p>
+  </aside>
+  <section id="section1">
+    <h1>Мамочка, я тебя люблю! 💖</h1>
+    <p>Ты самая добрая, красивая и заботливая. Я счастлива, что ты у меня есть.  
+    Этот сайт — маленький подарок, сделанный с любовью ✨</p>
+  </section>
+  <section id="section2">
+    <h2>О моей маме</h2>
+    <p>Моя мама — самая светлая, заботливая и родная.  
+    Она всегда поддержит, обнимет, накормит и рассмешит.  
+    Мамочка — моё солнышко и мой герой 💐</p>
+    <img src="мама.jpg" alt="Моя самая любимая мама">
+  </section>
+  <section id="section3">
+    <h2>Люблю тебя!</h2>
+    <p>Просто хотела сказать — ты лучше всех.  
+    Твоя Настюша 💋</p>
+    <footer>
+      <p>© 2025 Все права защищены — Сделано с любовью для мамы 💖</p>
+    </footer>
+  </section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
